@@ -1,0 +1,76 @@
+body {
+    background-size: cover;
+    background-image: url(./assets/pexels-donaldtong94-189296.jpg);
+}
+
+label {
+    color: white;
+    font-size: xx-large;
+}
+
+form {
+    background: #fff;
+    width: fit-content;
+    height: max-content;
+    margin-left: 38%;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(./assets/pexels-pixabay-277572.jpg);
+    background-size: cover;
+}
+
+input {
+    font-size: large;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button {
+    background: yellow;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+   
+    
+}
+
+.modal-content {
+    color: black;
+    margin: 15% auto;
+    padding: 8px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 20px;
+    background-image: url(./assets/pexels-jplenio-1632790.jpg)
+    background-size: cover;
+}
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;   
+    text-decoration: none;
+    cursor: pointer;
+}
